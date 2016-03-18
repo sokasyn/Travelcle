@@ -13,6 +13,8 @@
 		D17E5A881C9B9EB4006663B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17E5A861C9B9EB4006663B9 /* Main.storyboard */; };
 		D17E5A8A1C9B9EB4006663B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17E5A891C9B9EB4006663B9 /* Assets.xcassets */; };
 		D17E5A8D1C9B9EB4006663B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17E5A8B1C9B9EB4006663B9 /* LaunchScreen.storyboard */; };
+		D17E5AA01C9BCB9D006663B9 /* TCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D17E5A9F1C9BCB9D006663B9 /* TCUser.m */; };
+		D17E5AA31C9BCC68006663B9 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = D17E5AA21C9BCC68006663B9 /* LoginController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		D17E5A891C9B9EB4006663B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D17E5A8C1C9B9EB4006663B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D17E5A8E1C9B9EB4006663B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D17E5A9E1C9BCB9D006663B9 /* TCUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCUser.h; sourceTree = "<group>"; };
+		D17E5A9F1C9BCB9D006663B9 /* TCUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCUser.m; sourceTree = "<group>"; };
+		D17E5AA11C9BCC68006663B9 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		D17E5AA21C9BCC68006663B9 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,7 @@
 				D17E5A811C9B9EB4006663B9 /* AppDelegate.m */,
 				D17E5A831C9B9EB4006663B9 /* ViewController.h */,
 				D17E5A841C9B9EB4006663B9 /* ViewController.m */,
+				D17E5A951C9BC6A0006663B9 /* Login */,
 				D17E5A861C9B9EB4006663B9 /* Main.storyboard */,
 				D17E5A891C9B9EB4006663B9 /* Assets.xcassets */,
 				D17E5A8B1C9B9EB4006663B9 /* LaunchScreen.storyboard */,
@@ -77,6 +84,57 @@
 				D17E5A7E1C9B9EB4006663B9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D17E5A951C9BC6A0006663B9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D17E5A971C9BC720006663B9 /* Controller */,
+				D17E5A981C9BC720006663B9 /* Model */,
+				D17E5A991C9BC720006663B9 /* View */,
+				D17E5A961C9BC720006663B9 /* Common */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D17E5A961C9BC720006663B9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D17E5A971C9BC720006663B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D17E5AA11C9BCC68006663B9 /* LoginController.h */,
+				D17E5AA21C9BCC68006663B9 /* LoginController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D17E5A981C9BC720006663B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D17E5A9D1C9BCB7E006663B9 /* Domain */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D17E5A991C9BC720006663B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D17E5A9D1C9BCB7E006663B9 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				D17E5A9E1C9BCB9D006663B9 /* TCUser.h */,
+				D17E5A9F1C9BCB9D006663B9 /* TCUser.m */,
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +208,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D17E5AA31C9BCC68006663B9 /* LoginController.m in Sources */,
 				D17E5A851C9B9EB4006663B9 /* ViewController.m in Sources */,
 				D17E5A821C9B9EB4006663B9 /* AppDelegate.m in Sources */,
 				D17E5A7F1C9B9EB4006663B9 /* main.m in Sources */,
+				D17E5AA01C9BCB9D006663B9 /* TCUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
