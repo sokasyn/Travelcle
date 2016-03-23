@@ -31,7 +31,7 @@
 
 #pragma mark -User Interface
 - (void)initData{
-    self.user.name = @"Samson";
+    self.user.name = @"Samson.Tseang";
     self.user.password = @"1234";
 }
 
