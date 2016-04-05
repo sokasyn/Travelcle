@@ -52,6 +52,11 @@
     [self loginWithUserName:user.name password:user.password];
 }
 
+#pragma mark - implements
+- (void)loginWithUser:(TCUser *)user{
+    
+}
+
 - (void)loginWithUserName:(NSString *)userName password:(NSString *)password{
     if ([userName isEqualToString:self.user.name] && [password isEqualToString:self.user.password]) {
         NSLog(@"OK!");
@@ -79,6 +84,8 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+
 
 #pragma mark -Storyboard
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{

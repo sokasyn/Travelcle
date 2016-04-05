@@ -13,4 +13,9 @@
 
 @property (retain, nonatomic) TCUser *user;
 
+- (void)loginWithUser:(TCUser *)user;
+- (void)loginWithUserName:(NSString *)userName password:(NSString *)password;
+- (void)userRegister;
+- (void)forgetPassword;
+
 @end
