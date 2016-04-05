@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1398D5F1CB3A705007ACB48 /* RefrenceInfo.txt in Resources */ = {isa = PBXBuildFile; fileRef = D1398D5E1CB3A705007ACB48 /* RefrenceInfo.txt */; };
 		D17E5A7F1C9B9EB4006663B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D17E5A7E1C9B9EB4006663B9 /* main.m */; };
 		D17E5A821C9B9EB4006663B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D17E5A811C9B9EB4006663B9 /* AppDelegate.m */; };
 		D17E5A851C9B9EB4006663B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D17E5A841C9B9EB4006663B9 /* ViewController.m */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D1398D5E1CB3A705007ACB48 /* RefrenceInfo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RefrenceInfo.txt; sourceTree = "<group>"; };
 		D17E5A7A1C9B9EB4006663B9 /* Travelcle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travelcle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17E5A7E1C9B9EB4006663B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D17E5A801C9B9EB4006663B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,6 +47,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1398D5C1CB3A6CF007ACB48 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D1398D5D1CB3A6CF007ACB48 /* Other */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D1398D5D1CB3A6CF007ACB48 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D1398D5E1CB3A705007ACB48 /* RefrenceInfo.txt */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		D17E5A711C9B9EB4006663B9 = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +87,7 @@
 				D17E5A831C9B9EB4006663B9 /* ViewController.h */,
 				D17E5A841C9B9EB4006663B9 /* ViewController.m */,
 				D17E5A951C9BC6A0006663B9 /* Login */,
+				D1398D5C1CB3A6CF007ACB48 /* Resource */,
 				D17E5A861C9B9EB4006663B9 /* Main.storyboard */,
 				D17E5A891C9B9EB4006663B9 /* Assets.xcassets */,
 				D17E5A8B1C9B9EB4006663B9 /* LaunchScreen.storyboard */,
@@ -195,6 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1398D5F1CB3A705007ACB48 /* RefrenceInfo.txt in Resources */,
 				D17E5A8D1C9B9EB4006663B9 /* LaunchScreen.storyboard in Resources */,
 				D17E5A8A1C9B9EB4006663B9 /* Assets.xcassets in Resources */,
 				D17E5A881C9B9EB4006663B9 /* Main.storyboard in Resources */,
